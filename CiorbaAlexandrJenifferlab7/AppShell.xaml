@@ -8,6 +8,7 @@
     Title="CiorbaAlexandrJenifferlab7">
 
     <TabBar>
+        
         <ShellContent 
 Title="Welcome" 
 ContentTemplate="{DataTemplate local:MainPage}" 
@@ -16,6 +17,10 @@ ContentTemplate="{DataTemplate local:MainPage}"
 Title="About" 
 ContentTemplate="{DataTemplate local:AboutPage}" 
 />
+        <ShellContent 
+            Title="My Shops"  
+            ContentTemplate="{DataTemplate local:ShopEntryPage}"  
+             />
         <ShellContent 
             Title="My Shopping Lists" 
             ContentTemplate="{DataTemplate local:ListEntryPage}" 
